@@ -6,8 +6,9 @@ deployment:
   dockerhub:
     branch: master
     commands:
-      - $Docker_Repo_Trigger
+      - $Docker_Dog_Trigger
 
 test:
   override:   
     - mocha 
+
